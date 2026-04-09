@@ -137,7 +137,7 @@ fn top_posts<T: Displayable>(posts: &[T], n: usize) -> Vec<&T> {
 }
 
 fn main() {
-    println!("===== 📱 CringeBook Feed =====\n");
+    println!("===== 📱CringeBook Feed =====\n");
 
     let t1 = Tweet {
         username: "Sudarshan".to_string(),
