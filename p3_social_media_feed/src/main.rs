@@ -98,13 +98,13 @@ struct Feed {
 }
 
 impl Feed {
-    fn new() -> Self {
-        Feed { posts: vec![] }
-    }
+    // fn new() -> Self {
+    //     Feed { posts: vec![] }
+    // }
 
-    fn add(&mut self, post: Box<dyn Displayable>) {
-        self.posts.push(post);
-    }
+    // fn add(&mut self, post: Box<dyn Displayable>) {
+    //     self.posts.push(post);
+    // }
 
     fn display_all(&self) {
         // prints every post's render()
